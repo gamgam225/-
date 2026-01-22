@@ -1,1 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте - SmartSchedule</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- То же меню, что и на главной -->
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-calendar-alt"></i>
+                <span>SmartSchedule</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="about.html" class="active"><i class="fas fa-info-circle"></i> О проекте</a></li>
+                <li><a href="schedule.html"><i class="fas fa-table"></i> Расписание</a></li>
+                <li><a href="add-event.html"><i class="fas fa-plus-circle"></i> Добавить пару</a></li>
+            </ul>
+            <button class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
 
+    <main class="container">
+        <section class="about-header">
+            <h1>О проекте SmartSchedule</h1>
+            <p class="subtitle">Узнайте больше о нашем сервисе и команде разработчиков</p>
+        </section>
+
+        <section class="about-content">
+            <div class="about-card">
+                <h2><i class="fas fa-lightbulb"></i> Идея проекта</h2>
+                <p>SmartSchedule был создан для решения проблемы с актуальностью и доступностью расписания в нашем колледже. Многие студенты сталкивались с тем, что:</p>
+                <ul>
+                    <li>Расписание на стендах устаревает</li>
+                    <li>Нет единого источника информации</li>
+                    <li>Сложно найти изменения в последний момент</li>
+                    <li>Неудобно смотреть на мобильных устройствах</li>
+                </ul>
+                <p>Наш сервис решает все эти проблемы, предоставляя централизованную, всегда актуальную платформу.</p>
+            </div>
+
+            <div class="about-card">
+                <h2><i class="fas fa-bullseye"></i> Цели и задачи</h2>
+                <div class="goals-grid">
+                    <div class="goal-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Цель 1</h3>
+                        <p>Создать удобный цифровой аналог бумажного расписания</p>
+                    </div>
+                    <div class="goal-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Цель 2</h3>
+                        <p>Обеспечить мгновенное обновление информации</p>
+                    </div>
+                    <div class="goal-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Цель 3</h3>
+                        <p>Реализовать адаптивный дизайн для всех устройств</p>
+                    </div>
+                    <div class="goal-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Цель 4</h3>
+                        <p>Добавить возможность студентам добавлять свои заметки</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-card">
+                <h2><i class="fas fa-users"></i> Наша команда</h2>
+                <p>Проект разрабатывается студентами колледжа в рамках учебного спринта:</p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Алексей Иванов</h3>
+                        <p class="role">Team Lead / Backend</p>
+                        <p>Координация проекта, архитектура, JavaScript</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Мария Петрова</h3>
+                        <p class="role">Frontend Developer</p>
+                        <p>Вёрстка, адаптивный дизайн, CSS</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Дмитрий Сидоров</h3>
+                        <p class="role">JavaScript Developer</p>
+                        <p>Интерактивность, формы, LocalStorage</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Екатерина Кузнецова</h3>
+                        <p class="role">UI/UX Designer</p>
+                        <p>Дизайн, иконки, пользовательский опыт</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-card">
+                <h2><i class="fas fa-code"></i> Технологии</h2>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-database"></i>
+                        <span>LocalStorage</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- То же подвал, что и на главной -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SmartSchedule</h3>
+                <p>Умное расписание для колледжа</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p><i class="fas fa-envelope"></i> support@smartschedule.edu</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SmartSchedule</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
