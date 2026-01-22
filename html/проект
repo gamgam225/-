@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSchedule - Умное расписание колледжа</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигационное меню -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-calendar-alt"></i>
+                <span>SmartSchedule</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> О проекте</a></li>
+                <li><a href="schedule.html"><i class="fas fa-table"></i> Расписание</a></li>
+                <li><a href="add-event.html"><i class="fas fa-plus-circle"></i> Добавить пару</a></li>
+            </ul>
+            <button class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
 
+    <!-- Основной контент -->
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Умное расписание для вашего колледжа</h1>
+                <p class="subtitle">Всегда актуальное расписание занятий, быстрый поиск и удобное управление</p>
+                <a href="schedule.html" class="btn-primary">Посмотреть расписание</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Студенты в колледже">
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Наши преимущества</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Всегда актуально</h3>
+                    <p>Расписание обновляется в реальном времени. Все изменения сразу видны.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Умный поиск</h3>
+                    <p>Быстро находите нужную пару, аудиторию или преподавателя.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Адаптивный дизайн</h3>
+                    <p>Удобно смотреть на любом устройстве: телефоне, планшете или компьютере.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Уведомления</h3>
+                    <p>Никогда не пропустите важную пару или изменения в расписании.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Начните использовать уже сегодня!</h2>
+            <p>Присоединяйтесь к сотням студентов, которые уже используют SmartSchedule</p>
+            <div class="cta-buttons">
+                <a href="schedule.html" class="btn-secondary">Посмотреть расписание</a>
+                <a href="add-event.html" class="btn-outline">Добавить свою пару</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SmartSchedule</h3>
+                <p>Умное расписание для колледжа</p>
+                <p>Разработано студентами для студентов</p>
+            </div>
+            <div class="footer-section">
+                <h3>Быстрые ссылки</h3>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="schedule.html">Расписание</a></li>
+                    <li><a href="add-event.html">Добавить пару</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p><i class="fas fa-envelope"></i> support@smartschedule.edu</p>
+                <p><i class="fas fa-phone"></i> +7 (XXX) XXX-XX-XX</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SmartSchedule. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
